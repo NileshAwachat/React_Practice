@@ -1,13 +1,49 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+
+
+/* header.css */
+
+.header {
+  @apply flex justify-between items-center p-4 bg-gray-100 border-b border-gray-300;
+  flex: none;
+  height: 70px;
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.logo {
+  @apply ml-5 mr-20;
 }
+
+.logo img {
+  @apply w-40 h-20 p-2 m-2 rounded;
+}
+
+.items {
+  @apply flex justify-end p-4;
+}
+
+.items ul {
+  @apply list-none m-0 p-0 flex;
+}
+
+.items li {
+  @apply mr-5;
+}
+/* --------------------- */
+/* React Hook Form  */
+.input-error{
+  border: 1px solid red
+}
+
+.error-message{
+  color: red
+}
+
+/* --------------------------------- */
