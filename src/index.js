@@ -34,7 +34,7 @@ import reportWebVitals from './reportWebVitals';
 // import Rechart from './ReactChart/Chart'
 // import ReactForm from './ReactHookForm/From';
 // import ToggleText from './UseState/ToggleText';
-import BackGroundColor from './UseState/BgColor'; 
+// import BackGroundColor from './UseState/BgColor'; 
 import DisplayName from './UseState/DisplayName'; 
 
 
