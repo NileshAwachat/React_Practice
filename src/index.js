@@ -32,7 +32,7 @@ import reportWebVitals from './reportWebVitals';
 // import Calculator from './Calculator/Calculator';
 // import UseCallback from './UseCallback/Usecallback'
 // import Rechart from './ReactChart/Chart'
-import ReactForm from './ReactHookForm/From';
+// import ReactForm from './ReactHookForm/From';
 
 // import App from './App'
 // import {Provider} from 'react-redux'
@@ -75,7 +75,9 @@ root.render(
                         {/* <Calculator/> */}
                         {/* <UseCallback/> */}
                         {/* <Rechart/> */}
-                        <ReactForm/>
+                        {/* <ReactForm/> */}
+
+
 
         {/* </BrowserRouter> */}
       </React.StrictMode>
