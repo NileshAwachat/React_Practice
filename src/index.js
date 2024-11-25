@@ -33,6 +33,10 @@ import reportWebVitals from './reportWebVitals';
 // import UseCallback from './UseCallback/Usecallback'
 // import Rechart from './ReactChart/Chart'
 // import ReactForm from './ReactHookForm/From';
+// import ToggleText from './UseState/ToggleText';
+import BackGroundColor from './UseState/BgColor'; 
+import DisplayName from './UseState/DisplayName'; 
+
 
 // import App from './App'
 // import {Provider} from 'react-redux'
@@ -80,6 +84,10 @@ root.render(
 
 
         {/* </BrowserRouter> */}
+        {/* <ToggleText/> */}
+        {/* <BackGroundColor/> */}
+        <DisplayName/>
+
       </React.StrictMode>
 );
 
