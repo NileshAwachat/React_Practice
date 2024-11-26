@@ -8,9 +8,7 @@ function DisplayItems() {
     // State to track the list of items
     const [items, setItems] = useState([]);
 
-    const handleRemoveItem = (indexToRemove) => {
-        setItems((prevItems) => prevItems.filter((_, index) => index !== indexToRemove));
-    };
+ 
 
     return (
         <>
@@ -22,10 +20,6 @@ function DisplayItems() {
                     placeholder="Type an item"
                     value={inputValue}
                     onChange={(e) => setInputValue(e.target.value)} />
-
-
-
-
                 <button onClick={() => {
                     if (inputValue.trim() !== "") {
                         setItems([...items, inputValue])
@@ -37,9 +31,9 @@ function DisplayItems() {
                     <ul>
                         {items.map((item, index) => (
                             <li key={index}>{item}
-                            
-                                
-                                 <button
+
+
+                                <button
                                     onClick={() => {
                                         const updatedItems = items.filter((_, i) => i !== index);
                                         setItems(updatedItems);
@@ -47,8 +41,8 @@ function DisplayItems() {
                                 >
                                     Remove
                                 </button>
-                                
-                                </li>
+
+                            </li>
                         ))}
                     </ul>
                 </div>

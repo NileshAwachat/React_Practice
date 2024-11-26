@@ -35,7 +35,8 @@ import reportWebVitals from './reportWebVitals';
 // import ReactForm from './ReactHookForm/From';
 // import ToggleText from './UseState/ToggleText';
 // import BackGroundColor from './UseState/BgColor'; 
-import DisplayName from './UseState/DisplayName'; 
+// import DisplayName from './UseState/DisplayName'; 
+import DisplayItems from './UseState/DisplayItems'; 
 
 
 // import App from './App'
@@ -86,7 +87,8 @@ root.render(
         {/* </BrowserRouter> */}
         {/* <ToggleText/> */}
         {/* <BackGroundColor/> */}
-        <DisplayName/>
+        {/* <DisplayName/> */}
+        <DisplayItems/>
 
       </React.StrictMode>
 );
