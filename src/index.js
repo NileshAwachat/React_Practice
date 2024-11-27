@@ -36,7 +36,8 @@ import reportWebVitals from './reportWebVitals';
 // import ToggleText from './UseState/ToggleText';
 // import BackGroundColor from './UseState/BgColor'; 
 // import DisplayName from './UseState/DisplayName'; 
-import DisplayItems from './UseState/DisplayItems'; 
+// import DisplayItems from './UseState/DisplayItems'; 
+import {App} from './UseEffect/ThapaPractice/App'
 
 
 // import App from './App'
@@ -88,8 +89,8 @@ root.render(
         {/* <ToggleText/> */}
         {/* <BackGroundColor/> */}
         {/* <DisplayName/> */}
-        <DisplayItems/>
-
+        {/* <DisplayItems/> */}
+      <App/>
       </React.StrictMode>
 );
 
