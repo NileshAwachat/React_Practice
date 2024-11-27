@@ -37,7 +37,8 @@ import reportWebVitals from './reportWebVitals';
 // import BackGroundColor from './UseState/BgColor'; 
 // import DisplayName from './UseState/DisplayName'; 
 // import DisplayItems from './UseState/DisplayItems'; 
-import {App} from './UseEffect/ThapaPractice/App'
+// import {App} from './UseEffect/ThapaPractice/App'
+import {App} from './UseEffect/ThapaPractice2/index'
 
 
 // import App from './App'
@@ -90,7 +91,8 @@ root.render(
         {/* <BackGroundColor/> */}
         {/* <DisplayName/> */}
         {/* <DisplayItems/> */}
-      <App/>
+      {/* <App/> */}
+      <App />
       </React.StrictMode>
 );
 
